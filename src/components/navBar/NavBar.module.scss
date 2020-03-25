@@ -1,0 +1,36 @@
+.NavBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .tel {
+        color: #fff;
+    }
+    .right {
+        display: flex;
+    }
+    select {
+        height: 56px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 24px;
+        border: none;
+        outline: none;
+        position: relative;
+        z-index: 5;
+        appearance: none;
+        padding: 15px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            cursor: pointer;
+        }
+        option {
+            background-color: #000;
+            text-align: center;
+        }
+    }
+}

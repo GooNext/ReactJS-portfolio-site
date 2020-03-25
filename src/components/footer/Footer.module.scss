@@ -1,0 +1,96 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Helvetica Neue Cyr Roman';
+    position: relative;
+    .left {
+        max-width: 445px;
+        width: 100%;
+        height: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h4 {
+            color: #fff;
+            font-size: 22px;
+            letter-spacing: 2px;
+            position: relative;
+            font-weight: 400;
+        }
+        & span {
+            color: #fff;
+            font-size: 22px;
+            letter-spacing: 2px;
+            position: relative;
+            font-weight: 400;
+            max-width: 445px;
+        }
+        .typed-cursor{
+            display: none;
+            &:nth-child(1){
+                display: none;
+            }
+        }
+    }
+    .center {
+        h4 {
+            color: #fff;
+            font-size: 25px;
+            letter-spacing: 2px;
+        }
+    }
+    .right {
+        ul {
+            list-style-type: none;
+            margin-bottom: 0;
+            & li {
+                font-size: 100px;
+                letter-spacing: -6px;
+                font-family: 'Helvetica Neue Cyr Bold';
+                position: relative;
+                z-index: 9;
+                &:nth-child(2){
+                    margin: -20px 0;
+                }
+                & a {
+                    text-decoration: none;
+                    -webkit-text-stroke: 1px #fff;
+                    transition: all 0.3s ease-in;
+                    color: transparent;
+                    &:hover {
+                        color: #fff;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.list {
+    display: none;
+}
+
+.typed-cursor{
+    opacity: 1;
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;
+  }
+  @keyframes typedjsBlink{
+    50% { opacity: 0.0; }
+  }
+  @-webkit-keyframes typedjsBlink{
+    0% { opacity: 1; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1; }
+  }
+  .typed-fade-out{
+    opacity: 0;
+    transition: opacity .25s;
+    -webkit-animation: 0;
+    animation: 0;
+  }
+  
