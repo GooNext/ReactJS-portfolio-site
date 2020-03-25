@@ -4,5 +4,5 @@
 - Async changle Languages
 - WebGL cursor animation
 
-<img src = "https://media.giphy.com/media/ZdwpivwpRc8KdERHmJ/giphy.gif">
+<img src = "https://media.giphy.com/media/Uq57KtWwAPhCUuFoRm/giphy.gif">
 
