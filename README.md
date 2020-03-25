@@ -4,5 +4,5 @@
 - Async changle Languages
 - WebGL cursor animation
 
-![portfolio](https://media.giphy.com/media/ZdwpivwpRc8KdERHmJ/giphy.gif)
+![portfolio](https://media3.giphy.com/media/Uq57KtWwAPhCUuFoRm/giphy.gif)
 
